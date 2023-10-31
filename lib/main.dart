@@ -13,20 +13,12 @@ class Home extends StatelessWidget {
   appBar: AppBar(title:Text(
     'Flutter Application',
       style: TextStyle(
-      backgroundColor: Colors.amber , 
-      color: Colors.black,
+      color: Colors.white,
     ),
 
   ) , centerTitle: true, backgroundColor:Colors.brown[400],),
-     body: Center(child: Text(
-      'This is nelofar zabi',
-      style: TextStyle(
-        fontSize: 30 , 
-        backgroundColor: Colors.red , 
-        color: Colors.amber, 
-        fontWeight: FontWeight.bold
-      ),
-     ),),
+     body: Center(child:Icon(Icons.access_alarm_outlined,)
+     ),
   floatingActionButton: FloatingActionButton(onPressed: null , child:Text('Click') , backgroundColor: Colors.brown[300],),
  );
  }
